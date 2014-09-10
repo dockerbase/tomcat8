@@ -1,0 +1,6 @@
+#!/bin/bash
+exec 2>&1
+#JAVA_OPTS=$JAVA_OPTS -Djava.net.preferIPv4Stack=true -Djava.net.preferIPv4Addresses
+export CATALINA_HOME=/usr/local/tomcat
+export CATALINA_OPTS="-Djava.security.egd=file:/dev/.urandom"
+exec $CATALINA_HOME/bin/catalina.sh start

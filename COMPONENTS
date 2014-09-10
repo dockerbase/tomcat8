@@ -1,0 +1,5 @@
+docker run -it --rm dockerbase/tomcat8:1.0 sh -c 'java -version ; git --version'
+java version "1.8.0_20"
+Java(TM) SE Runtime Environment (build 1.8.0_20-b26)
+Java HotSpot(TM) 64-Bit Server VM (build 25.20-b23, mixed mode)
+git version 1.9.1
